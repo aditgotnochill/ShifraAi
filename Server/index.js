@@ -11,7 +11,7 @@ import billingRouter from "./Routes/billing.route.js";
 
 const app = express();
 const privateCors = cors({
-  origin: ["http://localhost:5173"],
+  origin: ["https://shifraai-198v.onrender.com"],
 
   credentials: true,
 });
