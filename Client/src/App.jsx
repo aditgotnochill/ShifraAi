@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import Home from "./pages/Home";
 import { linkWithCredential } from "firebase/auth";
 import ProtectedRoute from "./Components/ProtectedRoute";
