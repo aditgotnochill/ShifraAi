@@ -10,7 +10,7 @@ import Navbar from "./Components/Navbar";
 import Billing from "./pages/Billing";
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
-export const CLIENT_URL = "http://localhost:5173";
+export const CLIENT_URL = "https://shifraai-198v.onrender.com";
 function App() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
