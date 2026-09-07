@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import { linkWithCredential } from "firebase/auth";
 import ProtectedRoute from "./Components/ProtectedRoute";
 import Builder from "./pages/Builder";
-export const ServerUrl = "http://localhost:8000";
+export const ServerUrl = "https://shifraaiserver-fda3.onrender.com";
 import Navbar from "./Components/Navbar";
 import Billing from "./pages/Billing";
 import axios from "axios";
